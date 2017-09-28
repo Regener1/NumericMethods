@@ -1,0 +1,14 @@
+﻿<Window x:Class="NumMethods.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumMethods"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid Name="dataGridMatrix" Margin="0,0,10,35"/>
+        <Button Name="btnGenerateMatrix" Content="Generate matrix"  Click="btnGenerateMatrix_Click" Margin="410,290,10,9"/>
+        <TextBox Name="textBoxMatrixSize" Margin="318,290,112,9" RenderTransformOrigin="0.487,0.517"/>
+    </Grid>
+</Window>

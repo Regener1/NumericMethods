@@ -1,0 +1,9 @@
+c:\users\администратор\documents\visual studio 2015\Projects\NumericalMethods\NumericalMethods\bin\Debug\NumericalMethods.exe.config
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\bin\Debug\NumericalMethods.exe
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\bin\Debug\NumericalMethods.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.Form1.resources
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.Properties.Resources.resources
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.csproj.GenerateResource.Cache
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.exe
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.pdb
