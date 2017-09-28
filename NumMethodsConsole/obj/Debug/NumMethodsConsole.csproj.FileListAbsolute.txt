@@ -1,0 +1,8 @@
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumMethodsConsole.exe.config
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumMethodsConsole.exe
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumMethodsConsole.pdb
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumericalMethods.exe
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumericalMethods.pdb
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.csprojResolveAssemblyReference.cache
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.exe
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.pdb

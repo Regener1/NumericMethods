@@ -37,6 +37,7 @@ namespace NumericalMethods
 
             MatrixMaths matMath = new MatrixMaths();
             double[,] matrix = matMath.CreateMatrix(n);
+            matMath.Factorization(testMatrix);
 
             this.dataGridMatrix.ColumnCount = n;
 

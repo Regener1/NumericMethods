@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericalMethods", "NumericalMethods\NumericalMethods.csproj", "{AEFE8712-5A7F-4E28-BBFC-9FE5EF1C5954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumMethods", "NumMethods\NumMethods.csproj", "{F8441817-C396-4939-A143-D7AF5E4AA9A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumMethodsConsole", "NumMethodsConsole\NumMethodsConsole.csproj", "{38050DCB-7EF6-446F-AD20-1205476D89E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AEFE8712-5A7F-4E28-BBFC-9FE5EF1C5954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEFE8712-5A7F-4E28-BBFC-9FE5EF1C5954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEFE8712-5A7F-4E28-BBFC-9FE5EF1C5954}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8441817-C396-4939-A143-D7AF5E4AA9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8441817-C396-4939-A143-D7AF5E4AA9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8441817-C396-4939-A143-D7AF5E4AA9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8441817-C396-4939-A143-D7AF5E4AA9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38050DCB-7EF6-446F-AD20-1205476D89E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38050DCB-7EF6-446F-AD20-1205476D89E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38050DCB-7EF6-446F-AD20-1205476D89E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38050DCB-7EF6-446F-AD20-1205476D89E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

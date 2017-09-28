@@ -58,15 +58,6 @@ namespace NumericalMethods.toolbox
 
         public void Factorization(double[,] matrix)
         {
-
-        }
-
-        
-
-        public void SLAQ(double[,] matrix)
-        {
-            
-
             int n = matrix.GetLength(0);
             // init
             int[] p = new int[n];
@@ -76,13 +67,13 @@ namespace NumericalMethods.toolbox
             int jmax = 0;
             int buf = 0;
 
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                 p[i] = i;
                 q[i] = i;
             }
 
-            for (int k = 0; k < n; k++)
+            for (int k = 0; k < 1; k++)
             {
 
                 imax = k;
@@ -114,23 +105,43 @@ namespace NumericalMethods.toolbox
                     q[k] = q[jmax];
                     q[jmax] = buf;
                 }
-
-
-                //normalize
-                for(int j = k + 1; j < n; j++)
-                {
-                    matrix[k, j] = matrix[k, j] / matrix[k, k];
-                }
-
-                for(int i = k + 1; i < n; i++)
-                {
-                    for (int j = k + 1; j < n; j++)
-                    {
-                        matrix[i, j] -= matrix[i ,]
-                    }
-                }
-
             }
+
+
+            //console output
+            for(int i =0; i < p.Length; i++)
+            {
+                for(int j = 0; j < q.Length; j++)
+                {
+                    Console.Write("{0:0.####} ", matrix[p[i], q[j]]);
+                }
+                Console.WriteLine();
+            }
+        }
+        
+
+        public void SLAQ(double[,] matrix)
+        {
+            
+
+           
+
+
+                ////normalize
+                //for(int j = k + 1; j < n; j++)
+                //{
+                //    matrix[k, j] = matrix[k, j] / matrix[k, k];
+                //}
+
+                //for(int i = k + 1; i < n; i++)
+                //{
+                //    for (int j = k + 1; j < n; j++)
+                //    {
+                //        matrix[i, j] -= matrix[i ,]
+                //    }
+                //}
+
+            
         }
 
         public double Determinant(double[,] matrix)

@@ -7,3 +7,12 @@ C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Numeri
 C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.csproj.GenerateResource.Cache
 C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.exe
 C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.pdb
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\bin\Debug\NumericalMethods.exe.config
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\obj\Debug\NumericalMethods.exe
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\obj\Debug\NumericalMethods.pdb
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\obj\Debug\NumericalMethods.csprojResolveAssemblyReference.cache
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\obj\Debug\NumericalMethods.Form1.resources
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\obj\Debug\NumericalMethods.Properties.Resources.resources
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\obj\Debug\NumericalMethods.csproj.GenerateResource.Cache
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\bin\Debug\NumericalMethods.exe
+C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethods\bin\Debug\NumericalMethods.pdb
