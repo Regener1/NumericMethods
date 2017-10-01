@@ -73,15 +73,15 @@ namespace NumericalMethods.toolbox
                 q[i] = i;
             }
 
-            for (int k = 0; k < 1; k++)
+            for (int k = n - 1; k >= 0; k--)
             {
 
                 imax = k;
                 jmax = k;
 
-                for (int i = k; i < n; i++)
+                for (int i = k; i >= 0; i--)
                 {
-                    for (int j = k; j < n; j++)
+                    for (int j = k; j >= 0; j--)
                     {
                         if (Math.Abs(matrix[p[i], q[j]]) > Math.Abs(matrix[p[imax], q[jmax]]))
                         {
@@ -105,7 +105,19 @@ namespace NumericalMethods.toolbox
                     q[k] = q[jmax];
                     q[jmax] = buf;
                 }
+
+                for (int i = k - 1; i >= 0; i--)
+                {
+                    matrix[p[i], q[k]] /= matrix[p[k], q[k]];
+                    for (int j = k - 1; j >= 0; j--)
+                    {
+                        matrix[p[i], q[j]] -= matrix[p[i], q[k]] * matrix[p[k], q[j]];
+                    }
+                }
+
             }
+
+
 
 
             //console output
