@@ -8,17 +8,6 @@ namespace NumericalMethods.toolbox
 {
     public class MatrixMaths
     {
-        private void ConsolePrint(double[,] mat)
-        {
-            for (int i = 0; i < mat.GetLength(0); i++)
-            {
-                for (int j = 0; j < mat.GetLength(1); j++)
-                {
-                    Console.Write("{0:0.####} ", mat[i, j]);
-                }
-                Console.WriteLine();
-            }
-        }
 
         public double NormalDistribNum(Random rnd)
         {
@@ -50,18 +39,16 @@ namespace NumericalMethods.toolbox
                 }
             }
 
-            ConsolePrint(matrix);
-
             return matrix;
 
         }
 
-        public void Factorization(double[,] matrix)
+        public double[,] Factorization(double[,] matrix, ref int[] p, ref int[] q)
         {
             int n = matrix.GetLength(0);
             // init
-            int[] p = new int[n];
-            int[] q = new int[n];
+            p = new int[n];
+            q = new int[n];
 
             int imax = 0;
             int jmax = 0;
@@ -129,31 +116,41 @@ namespace NumericalMethods.toolbox
                 }
                 Console.WriteLine();
             }
+
+            return matrix;
         }
         
 
-        public void SLAQ(double[,] matrix)
+        public void SLAQ(double[,] matrix, int[] p, int[] q, double[] x)
         {
-            
+            int n = matrix.GetLength(0);
 
-           
+            double[] w = new double[n];
 
+            //search w=Lx => w 
+            double sum;
+            for (int i = 0; i < n; i++)
+            {
+                sum = 0;
+                for(int j = 0; j <= i; j++)
+                {
+                    sum += matrix[p[i], q[j]] * x[q[j]];
+                }
+                w[i] = sum;
+            }
 
-                ////normalize
-                //for(int j = k + 1; j < n; j++)
-                //{
-                //    matrix[k, j] = matrix[k, j] / matrix[k, k];
-                //}
+            //search Uw = b => b
+            double[] b = new double[n];
+            for (int i = n - 1; i >= 0; i--)
+            {
+                sum = 0;
+                for (int j = i; j > 0; j--)
+                {
+                    sum += matrix[p[i], q[j]] * w[j];
+                }
+                b[i] = sum + w[0];
+            }
 
-                //for(int i = k + 1; i < n; i++)
-                //{
-                //    for (int j = k + 1; j < n; j++)
-                //    {
-                //        matrix[i, j] -= matrix[i ,]
-                //    }
-                //}
-
-            
         }
 
         public double Determinant(double[,] matrix)

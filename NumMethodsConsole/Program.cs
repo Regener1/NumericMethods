@@ -20,7 +20,12 @@ namespace NumMethodsConsole
             };
 
             MatrixMaths mm = new MatrixMaths();
-            mm.Factorization(testMatrix);
+            int[] p = null;
+            int[] q = null;
+            double[] x = { 1, 2, 3, 4 };
+            double[,] matrix = mm.Factorization(testMatrix, ref p, ref q);
+            mm.SLAQ(matrix, p, q, x);
+
 
             Console.ReadKey();
         }
