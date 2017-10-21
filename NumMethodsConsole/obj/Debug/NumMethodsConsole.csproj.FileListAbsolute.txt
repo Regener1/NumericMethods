@@ -6,3 +6,11 @@ C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethods
 C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.csprojResolveAssemblyReference.cache
 C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.exe
 C:\Users\Regener\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumMethodsConsole.exe.config
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.exe
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumMethodsConsole.exe
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumMethodsConsole.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\obj\Debug\NumMethodsConsole.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumericalMethodsLibrary.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumMethodsConsole\bin\Debug\NumericalMethodsLibrary.pdb

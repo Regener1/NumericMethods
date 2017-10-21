@@ -1,0 +1,5 @@
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethodsLibrary\bin\Debug\NumericalMethodsLibrary.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethodsLibrary\bin\Debug\NumericalMethodsLibrary.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethodsLibrary\obj\Debug\NumericalMethodsLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethodsLibrary\obj\Debug\NumericalMethodsLibrary.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\NumericMethods\NumericalMethodsLibrary\obj\Debug\NumericalMethodsLibrary.pdb

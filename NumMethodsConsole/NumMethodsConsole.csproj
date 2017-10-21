@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NumericalMethods\NumericalMethods.csproj">
-      <Project>{aefe8712-5a7f-4e28-bbfc-9fe5ef1c5954}</Project>
-      <Name>NumericalMethods</Name>
+    <ProjectReference Include="..\NumericalMethodsLibrary\NumericalMethodsLibrary.csproj">
+      <Project>{53e6b92b-44d7-48b4-92f6-ec7f309185f7}</Project>
+      <Name>NumericalMethodsLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
